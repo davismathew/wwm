@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lenearlayout_left_menu_items"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#16151b"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_weight=".2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="432dp"
+            android:orientation="vertical" >
+
+		<RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#212028"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:text="Menu"
+                    android:textColor="@color/White" />
+
+            </RelativeLayout>>
+            
+            <LinearLayout
+                android:id="@+id/whatson"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@layout/signin_button_gradient"
+                android:padding="10dp" >
+  
+              <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".9" >
+
+                    <ImageView
+                        android:id="@+id/imv_sideMenuIcon_whatson"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/icon_home_normal" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1" >
+
+                    <TextView
+                        android:id="@+id/txt_sidemenu_whatson"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="25dp"
+                        android:text="What&apos;s On"
+                        android:textColor="#4d4b5c" />
+                </RelativeLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/Featured_Show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@layout/signin_button_gradient"
+                android:padding="10dp" >
+  
+              <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".9" >
+
+                    <ImageView
+                        android:id="@+id/imv_sideMenuIcon_featuresProgram"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/icon_featured_normal" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1" >
+
+                    <TextView
+                        android:id="@+id/txt_sidemenu_featuredProgram"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="25dp"
+                        android:text="Featured Programs"
+                        android:textColor="#4d4b5c" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/most_popular_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@layout/signin_button_gradient"
+                android:padding="10dp" >
+  
+               
+              <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".9" >
+
+                    <ImageView
+                        android:id="@+id/imv_sideMenuIcon_mostPopularProgram"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/icon_fav_normal" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1" >
+
+                    <TextView
+                        android:id="@+id/txt_sidemenu_mostPopular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="25dp"
+                        android:text="Most Popular Programs"
+                        android:textColor="#4d4b5c" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/tv_guide"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@layout/signin_button_gradient"
+                android:padding="10dp" >
+  
+              
+              <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".9" >
+
+                    <ImageView
+                        android:id="@+id/imv_sideMenuIcon_tvGuide"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/icon_tv_normal" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1" >
+
+                    <TextView
+                        android:id="@+id/txt_sidemenu_tvGuide"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="25dp"
+                        android:text="TV Guide"
+                        android:textColor="#4d4b5c" />
+                </RelativeLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/chat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@layout/signin_button_gradient"
+                android:padding="10dp" >
+   
+                
+              <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".9" >
+
+                    <ImageView
+                        android:id="@+id/imv_sideMenuIcon_shouts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/icon_chat_normal" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1" >
+
+                    <TextView
+                        android:id="@+id/txt_sidemenu_shouts"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="25dp"
+                        android:text="Shouts"
+                        android:textColor="#4d4b5c" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/notification_center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@layout/signin_button_gradient"
+                android:padding="10dp" >
+  
+              <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".9" >
+
+                    <ImageView
+                        android:id="@+id/imv_sideMenuIcon_notificationCenter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/icon_notification_normal" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1" >
+
+                    <TextView
+                        android:id="@+id/txt_sidemenu_notificationCenter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="25dp"
+                        android:text="Notification Center"
+                        android:textColor="#4d4b5c" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/my_profiles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@layout/signin_button_gradient"
+                android:padding="10dp" >
+   
+                
+              <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".9" >
+
+                    <ImageView
+                        android:id="@+id/imv_sideMenuIcon_myProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/icon_profile_normal" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".1" >
+
+                    <TextView
+                        android:id="@+id/txt_sidemenu_MyProfile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="25dp"
+                        android:text="My Profiles"
+                        android:textColor="#4d4b5c" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:id="@+id/fb_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight=".1" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imageView1"
+            android:layout_centerHorizontal="true"
+            android:text="Log In to FaceBook"
+            android:textColor="#08c6f7" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/textView2"
+            android:src="@drawable/icon_facebook_pressed" />
+
+    </RelativeLayout>
+
+</LinearLayout>

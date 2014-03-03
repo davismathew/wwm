@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2a2a34"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/list_shout_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:layout_weight="1" 
+        android:dividerHeight="0dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="8dp"
+        android:background="#25232c"
+        android:layout_weight="9" >
+
+        <EditText
+            android:id="@+id/EditText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_toLeftOf="@+id/btn_send"
+            android:background="#ffffff"
+            android:ems="10"
+            android:text="Type your message here"
+            android:textColor="@color/Gray" >
+
+           <requestFocus />
+           
+        </EditText>
+
+         <ImageButton
+             android:id="@+id/btn_send"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:layout_gravity="center"
+             android:background="@android:color/transparent"
+             android:src="@drawable/btn_send" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btn_send"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="18dp"
+            android:text="Send"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="#08c6f7"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+        
+
+    </RelativeLayout>
+</LinearLayout>
